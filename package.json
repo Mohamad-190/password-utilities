@@ -1,0 +1,20 @@
+{
+  "name": "password-utilities",
+  "version": "1.0.0",
+  "description": "A small JavaScript library for password utility functions",
+  "homepage": "https://github.com/Mohamad-190/password-utilities#readme",
+  "bugs": {
+    "url": "https://github.com/Mohamad-190/password-utilities/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohamad-190/password-utilities.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  }
+}
