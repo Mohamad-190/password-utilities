@@ -8,7 +8,7 @@ function generateStrongPassword(length = 12) {
     })
     .join('');
 
-  while (!isStrongPassword(strongPassword)) {
+  while (length >= 8 && !isStrongPassword(strongPassword)) {
     strongPassword = Array
       .from({ length }, () => {
         const randomIndex = Math.floor(Math.random() * allowedPasswordCharacters.length);
